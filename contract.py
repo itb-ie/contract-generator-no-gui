@@ -31,7 +31,7 @@ costs = "COSTS. Client will pay all \"costs\" in connection with Attorney's repr
     "deposits that are applicable towards costs. Costs include, but are not limited to, court filing fees, deposition " \
     "costs, expert frees and expenses, investigation costs, long distance telephone charges, messenger service fees, " \
     "photocopying expenses, and process server fees."
-deposit = "DEPOSIT. Client will pay to Attorney and initial deposit of ${}, to be received by Attorney on or before %s "\
+deposit = "DEPOSIT. Client will pay to Attorney and initial deposit of ${}, to be received by Attorney on or before {} "\
     "and to be applied against attorney's fees and costs incurred by Client. Of this amount ${} is refundable and ${} " \
     "is nonrefundable. The nonrefundable portion will be applied against attorney's fees first. If, at the termination " \
     "of services under this agreement, the total amount incurred by Client for attorney's fees is less than the amount " \
@@ -53,15 +53,15 @@ signatures = "___________________________________________  _____________________
 # ---------------------------------------------------------------------------------------------------------------
 
 # in this section we give values to our items
-lawyer = "Law firm of Ignacio, Bea, Natalia and Carlos"
-client = "Poor Bogdan"
-service = "Represent Client in his messy divorce procedure."
-compensation_value = "800"
-deposit_value = "1500"
-refundable_deposit_value = "1000"
-nonrefundable_deposit_value = "500"
-deposit_date = "March 11, 2021"
-jurisdiction = "the Kingdom of Spain"
+lawyer = "Law firm of Valentina, John, Andres and Eduardo and Partners"
+client = "Hana Montana"
+service = "Represent Client in her music career."
+compensation_value = "10000"
+deposit_value = "15000"
+refundable_deposit_value = "10000"
+nonrefundable_deposit_value = "5000"
+deposit_date = "March 11, 2025"
+jurisdiction = "United States of America"
 
 # ---------------------------------------------------------------------------------------------------------------
 
@@ -164,4 +164,4 @@ run.font.name = "Times New Roman"
 run.font.size = Pt(12)
 
 # save the doc
-doc.save("contract.docx")
+doc.save(f"{client}.docx")
