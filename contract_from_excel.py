@@ -54,7 +54,7 @@ signatures = "___________________________________________  _____________________
 # -----------------------------------------------------------------------------------------------------------------
 
 #open the excel document and extract the data
-df = pd.read_excel('data.xlsx')
+df = pd.read_excel('data.xlsx', engine="openpyxl")
 
 lawyer = df["Attorney"]
 client = df["Client"]
